@@ -1,0 +1,159 @@
+*{
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     list-style: none;
+}
+.container{
+     width: 65%;
+     margin: 0 auto;
+}
+.row::after{
+     content: '';
+     display: table;
+     clear: both;
+}
+.end{
+     text-align: end;
+}
+.mr{
+     border-right:1px solid gray ;
+}
+.col-md-6{
+     width: 50%;
+     float: left;
+}
+.col-md-4{
+     width: 25%;
+     float: left;
+}
+.w-8{
+     width: 313px;
+     height: 271px;
+}
+.abs{
+     position: absolute;
+     top: 62px;
+     color: white;
+     left: 65px;
+}
+.left{
+     text-align: left;
+}
+.between{
+     justify-content: space-between;
+}
+.m-5{
+     margin-right: 5px;
+}
+.btn{
+     width: 224px;
+    padding: 5px 0;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 1px 0 #148a92;
+    background-color: #0388a6;
+    border: 1px solid  #1f6367
+}
+.mon{
+     font-size: 28px;
+     font-weight: bold;
+}
+.moni{
+     font-size: 16px;
+     line-height: 22px;
+}
+.head{
+     font-size: 24px;
+     line-height: 24px;
+    color: #9a9994;
+}
+.w-100{
+     width: 110px;
+     height: 46px;
+}
+.fs-14{
+     font-size: 14px;
+    line-height: 22px;
+}
+
+.br{
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+     width: 262px;
+     padding: 5px 30px;
+    
+     border: 1px solid #ceccc5;
+     box-shadow: inset 0 1px 4px #ddd;
+}
+.rel{
+     position: relative;
+}
+.ab{
+     position: absolute;
+     top: 6px;
+     left: 172px;
+    
+}
+.p-20{
+     padding: 20px;
+}
+.w-2{
+     width: 389px;
+     height: 251px;
+}
+.w-5{
+     width: 30%;
+}
+.w-1{
+     width: 558px;
+}
+.pt-20{
+     padding: 20px 0;
+}
+.para{
+     font-size: 13px;
+    line-height: 17.6px;
+}
+.det{
+     font-size: 18px;
+     font-weight: bold;
+    color: #f14e32;
+    line-height: 33px;
+}
+.fs-18{
+     font-size: 18px;
+     line-height: 26.4px;
+}
+.co-blue{
+     color: #0388a6;
+}
+header ,article {
+     background-color:#f0efe7
+}
+section{
+     background-image: url(https://git-scm.com/images/bg/isometric-grid.png);
+     background-size: cover;
+     background-repeat: repeat;
+}
+.col-md-2{
+     width: 16.66%;
+     float: left;
+}
+.col-md-8{
+     width: 83.66%;
+     float: left;
+}
+.d-flex{
+     display: flex;
+     gap: 20px;
+}
+header{
+     padding: 20px;
+}
+.center{
+     align-items: center;
+}
